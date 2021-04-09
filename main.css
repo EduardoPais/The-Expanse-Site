@@ -10,7 +10,7 @@ body {
   background-color: rgb(10, 17, 34);
 }
 .spacement {
-  height: 50px;
+  height: 10px;
   width: 100vw;
   max-width: 100%;
   background-color: rgb(255, 255, 255);
@@ -93,6 +93,12 @@ body {
       max-width: 100%;
       background-color: rgb(255, 255, 255);
     }
+    .spacement {
+      height: 110px;
+      width: 100vw;
+      max-width: 100%;
+      background-color: rgb(255, 255, 255);
+    }
   }
 /*Header End*/
 
@@ -116,7 +122,7 @@ body {
 .start h1 {
 
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 70px;
@@ -125,7 +131,7 @@ body {
 .start h2 {
 
   position: absolute;
-  top: 55%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
@@ -175,8 +181,9 @@ body {
   text-align: center;
 }  
 .description .images img {
-  height: 100px;
+  height: 60px;
   align-items: center;
+  margin: 15px;
 }
 
 
@@ -191,7 +198,7 @@ body {
     font-size: 20px;
   }
   .description .images img {
-    height: 50px;
+    height: 30px;
     align-items: center;
   }
 }
@@ -214,8 +221,9 @@ body {
 .download .line1{
   text-align: center;
   }
-.download .icon img{
-  size: 200px;
+.download .link img{
+  height: 100px;
+  align-items: center;
 }
 
 
@@ -251,7 +259,7 @@ body {
   text-align: center;
   }
   .foto{
-    height: 300px;
+    height: 100px;
   }
 
 
@@ -265,12 +273,7 @@ body {
   .foto{
     size: 10px;
   }
-  .spacement{
-    height: 0px;
-      width: 100vw;
-      max-width: 100%;
-      background-color: rgb(255, 255, 255);
-  }
+  
 }
 /*About Me End*/
 
@@ -287,8 +290,9 @@ body {
   font-size: 70px;
 }
 .contacts .icons img{
-  height: 100px;
+  height: 60px;
   align-items: center;
+  margin: 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -299,7 +303,7 @@ body {
     font-size: 20px;
   }
   .contacts .icons img{
-  height: 60px;
+  height: 35px;
   align-items: center;
   }
 }

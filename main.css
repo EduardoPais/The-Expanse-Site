@@ -179,11 +179,16 @@ body {
   }
 .description .info .line2{
   text-align: center;
+}
+.description .info .line3{
+  text-align: center;
+  margin: 30px;
 }  
 .description .images img {
   height: 60px;
   align-items: center;
-  margin: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -192,10 +197,13 @@ body {
     font-size: 40px;
   }
   .description .info .line1 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .description .info .line2{
-    font-size: 20px;
+    font-size: 17px;
+  }
+  .description .info .line3{
+    font-size:  17px;
   }
   .description .images img {
     height: 30px;
@@ -232,7 +240,7 @@ body {
     font-size: 40px;
   }
   .download .line1 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .download .link a{
     width: 200px;
@@ -268,7 +276,7 @@ body {
     font-size: 40px;
   }
   .aboutme .line1 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .foto{
     size: 10px;
@@ -300,7 +308,7 @@ body {
     font-size: 40px;
   }
   .contacts .text {
-    font-size: 20px;
+    font-size: 17px;
   }
   .contacts .icons img{
   height: 35px;

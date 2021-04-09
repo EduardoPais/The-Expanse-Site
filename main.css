@@ -15,7 +15,12 @@ body {
   max-width: 100%;
   background-color: rgb(255, 255, 255);
 }
-
+.space {
+  height: 50px;
+  width: 100vw;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+}
 
 /* Header */
   header {
@@ -168,7 +173,7 @@ body {
   }
 .description .info .line2{
   text-align: center;
-  }  
+}  
 
 
 @media only screen and (max-width: 600px) {
@@ -186,19 +191,71 @@ body {
 /*Description End*/
 
 
+/*Download Start*/
+.download{
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  text-decoration: none;
+}
 
-
-
-
-
-  .icons img{
-    text-align: left;
-    background: white;
-    height: 100px;    
-
+.download .title {
+  font-size: 70px;
+  text-align: center;
+}
+.download .line1{
+  text-align: center;
   }
-  .foto img{
-    text-align: center;
-    background: white;
-    height: 600px;    
- }
+.download .link{
+  text-align: center;
+  color: rgb(10, 17, 34);
+} 
+
+@media only screen and (max-width: 600px) {
+  .download .title {
+    font-size: 40px;
+  }
+  .download .line1 {
+    font-size: 20px;
+  }
+  .download .link{
+    font-size: 15px;
+    color: rgb(10, 17, 34);
+  }
+}
+
+/*Download End*/
+
+
+/*About Me Start*/
+.aboutme{
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  text-decoration: none;
+}
+
+.aboutme .title {
+  font-size: 70px;
+  text-align: center;
+}
+.aboutme .line1{
+  text-align: center;
+  }
+  .foto{
+    height: 300px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .aboutme .title {
+    font-size: 40px;
+  }
+  .aboutme .line1 {
+    font-size: 20px;
+  }
+  .foto{
+    size: 10px;
+  }
+}
+/*About Me End*/

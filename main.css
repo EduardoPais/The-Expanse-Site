@@ -317,3 +317,22 @@ body {
 }
 
 /*Contacts End*/
+
+
+/*Scroll Start*/
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 2, 7);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(165, 165, 165);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(0, 2, 7);  /* creates padding around scroll thumb */
+}
+
+/*Scroll End*/
